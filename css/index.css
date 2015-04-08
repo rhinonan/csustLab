@@ -146,6 +146,7 @@ body{
   line-height: 35px;
   color: #fff;
 }
+
 .content-left-bottom ul li a{
   text-decoration: none;
   color: #fff;
@@ -154,4 +155,19 @@ body{
 }
 .border-none{
   border: none !important;
+}
+.content-middle-top{
+  width: 400px;
+  height: 330px;
+  border: 2px solid #0a8f8c;
+}
+.pic-box ul{
+  margin: 0px;
+  padding: 0px;
+}
+#pic-silde{
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
 }
