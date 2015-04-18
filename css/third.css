@@ -1,0 +1,126 @@
+.clear{
+  clear: both;
+}
+/*二三级顶部 公共部分*/
+.content{
+  width: 998px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content-head {
+  width: 998px;
+  height: 62px;
+  overflow: hidden;
+  background: url(../img/second-content-head_03.gif);
+  line-height: 62px;
+  border-bottom: 3px solid #47c6c2;
+}
+.head-left{
+  height: 62px;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 16px;
+  float: left;
+  width: 200px;
+}
+.head-right{
+  text-align: right;
+  margin-right: 20px;
+  height: 62px;
+  width: 200px;
+  float: right;
+  color: #333;
+}
+/*结束*/
+/*二三级 左侧公共部分*/
+.content-left{
+  width: 238px;
+  height: auto;
+  _height:600px;
+  min-height: 600px;
+  padding-top: 20px;
+  float: left;
+  overflow: hidden;
+  background-color: #f8fcfc;
+  color: #333;
+}
+.content-left ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.content-left ul li{
+  height: 31px;
+  width: 200px;
+  line-height: 31px;
+  padding-left: 38px;
+  background: url(../img/left-list_13.gif) no-repeat;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+.content-left ul li:hover{
+  background: url(../img/left-list_08.gif) no-repeat;
+  color: #fff;
+
+}
+.content-left ul li a{
+  display: block;
+}
+.content-left ul li a:hover{
+  color: #fff;
+  _color:#47c6c2;
+}
+/*结束*/
+/*三级单独部分*/
+
+.content-right{
+  width: 710px;
+  padding: 0 22px;
+  height: auto;
+  min-height: 620px;
+  _height:620px;
+  float: left;
+  position: relative;
+  border-left:2px solid #47c6c2; 
+  border-right:2px solid #47c6c2; 
+  background-color: #f8fcfc;
+  border-bottom:2px solid #47c6c2; 
+}
+.content-right h3{
+  width:500px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: #08b3ad;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.content-right>span{
+  color: #08b3ad;
+  float: right;
+  margin-right: 10px;
+}
+.att ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+overflow: hidden;
+margin-bottom: 20px;
+}
+.att ul li {
+  margin-top: 10px;
+}
+.att ul li a{
+  display: inline-block;
+  padding: 5px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #08b3ad;
+  color: #fff;
+}
+/*结束*/
