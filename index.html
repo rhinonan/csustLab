@@ -5,22 +5,113 @@
   <title>工程轻量化与可靠性技术实验室</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.css">
+  <!-- <link rel="stylesheet" href="css/public.css"> -->
+  <script src="./js/public.js"></script>
+  <script src="./js/jquery-1.11.2.min.js"></script>
 </head>
 <body>
-  <div class="head">
-    <img src="#" alt="头部图片">
-  </div><!-- 头部结束 -->
+  <div class="header">
+    <div class="head">
+      
+    </div>
+  </div>
   <div class="nav">
     <ul>
-      <li>首页</li>
-      <li>实验室组成</li>
-      <li>科学研究</li>
-      <li>人才培养</li>
-      <li>学术交流</li>
-      <li>开放课题</li>
-      <li>大型设备</li>
-      <li>研究成果与荣誉</li>
-      <li>合作交流</li>
+      <li>
+        <a href="">首页</a>
+      </li>
+      <li id="nav-sp2"><a href="">实验室组成</a>
+      <div class="nav-att">
+        <ul>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+        </ul>
+        <div class="nav-att-tri"></div> 
+      </div></li>
+      <li>
+        <a href="">科学研究</a>
+        <div class="nav-att">
+          <ul>
+            <li><a href="">这里是一个子项</a></li>
+            <li><a href="">这里是一个子项</a></li>
+            <li><a href="">这里是一个子项</a></li>
+          </ul>
+          <div class="nav-att-tri"></div> 
+        </div>
+      </li>
+      <li>
+        <a href="">人才培养</a>
+      <div class="nav-att">
+        <ul>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+        </ul>
+        <div class="nav-att-tri"></div> 
+      </div>
+
+      </li>
+      <li>
+        <a href="">学术交流</a>
+      <div class="nav-att">
+        <ul>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+        </ul>
+        <div class="nav-att-tri"></div> 
+      </div>
+
+      </li>
+      <li>
+        <a href="">开放课题</a>
+      <div class="nav-att">
+        <ul>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+        </ul>
+        <div class="nav-att-tri"></div> 
+      </div>
+
+      </li>
+      <li>
+        <a href="">大型设备</a>
+      <div class="nav-att">
+        <ul>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+        </ul>
+        <div class="nav-att-tri"></div> 
+      </div>
+
+      </li>
+      <li id="nav-sp1">
+        <a href="">研究成果与荣誉</a>
+        <div class="nav-att">
+          <ul>
+            <li><a href="">这里是一个子项</a></li>
+            <li><a href="">这里是一个子项</a></li>
+            <li><a href="">这里是一个子项</a></li>
+          </ul>
+        <div class="nav-att-tri"></div> 
+      </div>
+
+      </li>
+      <li>
+        <a href="">合作交流</a>
+      <div class="nav-att">
+        <ul>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+          <li><a href="">这里是一个子项</a></li>
+        </ul>
+        <div class="nav-att-tri"></div> 
+      </div>
+
+      </li>
     </ul>
   </div><!-- 导航结束 -->
   <div class="content">
@@ -77,24 +168,20 @@
     </div><!-- 内容左部结束结束 -->
     <div class="content-middle">
       <div class="content-middle-top">
-        <div class="pic-box">
-          <ul id="pic-slide">
-            <li><img src="#" alt="#"></li>
-            <li><img src="#" alt="#"></li>
-            <li><img src="#" alt="#"></li>
-            <li><img src="#" alt="#"></li>
+        <div class="pic-box" id="slide-pic-boxs">
+          <ul id="slide-pic">
+            <li><img src="./img/slide1.jpg" alt="#"></li>
+            <li><img src="./img/slide2.jpg" alt="#"></li>
+            <li><img src="./img/slide3.jpg" alt="#"></li>
+            <li><img src="./img/slide4.jpg" alt="#"></li>
           </ul>
-          <ul id="pic-atta">
+          <ul id="pic-instruction">
             <li>图片说明一</li>
             <li>图片说明二</li>
             <li>图片说明三</li>
             <li>图片说明四</li>
           </ul>
           <ul id="pic-num">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
           </ul>
         </div>
       </div><!-- 图片轮播结束 -->
@@ -103,7 +190,7 @@
           <div class="module-name">实验公告</div>
           <div class="more"><a href="#">more<span>►</span></a> </div>
         </div>
-        <div class="module-content">
+        <div class="module-content font2">
           <ul>
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
@@ -121,10 +208,10 @@
     <div class="content-right">
       <div class="content-right-top">
         <div class="module-head">
-          <div class="module-name">研究方向</div>
+          <div class="module-name">合作交流</div>
           <div class="more"><a href="#">more<span>►</span></a> </div>
         </div>
-        <div class="module-content">
+        <div class="module-content font2">
           <ul>
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
@@ -134,39 +221,49 @@
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
             <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
-            <li><span>2015-9-7</span><a href="#">这里是新闻的单个标题</a></li>
+            <li><span>2015-9-7</span><a href="www.baidu.com">这里是新闻的单个标题</a></li>
           </ul>
         </div>
       </div><!-- 研究方向模块结束 -->
       <div class="content-right-bottom">
-        <ul>
-          <li>
-            <span>校内连接</span>
-            <ul>
-              <li>链接一</li>
-              <li>连接二</li>
-              <li>链接三</li>
-            </ul>
-          </li>
-          <li>
-            <span>校外链接</span>
-            <ul>
-              <li>链接一</li>
-              <li>链接二</li>
-              <li>链接三</li>
-            </ul>
-          </li>
+        <div class="module-head">
+          <div class="module-name">友情链接</div>
+          <div class="more"><a href="#">more<span>►</span></a> </div>
+        </div>
+        <ul class="link-in-school">
+          <span></span>
+          <div class="link-li1">
+            <li><a href="http://www.baidu.com">-------腾讯-------</a></li>
+            <li><a href="http://www.sogou.com">-------腾讯-------</a></li>
+            <li><a href="">-------阿里-------</a></li>
+          </div>
+        </ul>
+        <ul class="link-out-school">
+          <span></span>
+          <div class="link-li2">
+            <li><a href="">-------百度-------</a></li>
+            <li><a href="">-------腾讯-------</a></li>
+            <li><a href="">-------阿里-------</a></li>
+          </div>
         </ul>
         <div class="f-link">
           <ul>
-            <li><a href="#">链接一</a></li>
-            <li><a href="#">链接二</a></li>
-            <li><a href="#">链接三</a></li>
+            <li><a href="#">
+              长沙理工大学
+            </a></li>
+            <li><a href="#">长沙理工大学XXX学院</a></li>
+            <li><a href="#">另外一个实验室</a></li>
+            <li><a href="#">另外一个实验室</a></li>
           </ul>
         </div>
       </div><!-- 第五个模块结束 -->
     </div><!-- 内容右部结束 -->
   </div><!-- 主体结束 -->
-  <div class="footer"></div><!-- 底部结束 -->
+  <div class="footer">
+    <div class="foot">
+      <p>程车辆轻量化与可靠性技术重点实验室版权所有</p>
+<p>长沙市（雨花区）万家丽南路960号 410114 技术支持：云作坊</p> 
+    </div> 
+  </div><!-- 底部结束 -->
 </body>
 </html>
